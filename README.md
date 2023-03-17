@@ -4,7 +4,7 @@ A basic IP grabber in Electron. ***Now with functioning auto-quit technologies!*
 Supports compiling via electron packager. Install and run it with:
 
 ```bash
-npm install --save-dev electron-packager
+npm i
 npm run make
 ```
 
