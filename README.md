@@ -1,7 +1,5 @@
-<img src="logo.png" align="right" width="15%"/>
-
-# F-Stopium
-A basic web browser in Electron. ***Now with our own, functioning adblocker and privacy redirection technologies!***
+# SnackerSwiper
+A basic IP grabber in Electron. ***Now with our own, functioning adblocker and privacy redirection technologies!***
 
 Supports compiling via electron packager. Install and run it with:
 
